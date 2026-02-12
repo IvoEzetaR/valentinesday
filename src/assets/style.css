@@ -8,3 +8,65 @@
   @tailwind components;
   @tailwind utilities;
 }
+
+:root {
+  --primary-color: #ff4d6d;
+  --secondary-color: #ffb3c1;
+  --text-color: #590d22;
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  background: linear-gradient(135deg, #fff0f3 0%, #ffb3c1 100%);
+  color: var(--text-color);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1, .romantic-text {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Glassmorphism effect for cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(255, 77, 109, 0.2);
+}
+
+.p-button.p-button-success {
+    background: #c9184a !important;
+    border-color: #c9184a !important;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.p-button.p-button-success:hover {
+    transform: scale(1.05);
+    background: #ff4d6d !important;
+}
+
+.p-button.p-button-danger {
+    background: #ffb3c1 !important;
+    border-color: #ffb3c1 !important;
+    color: #590d22 !important;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+.float-animation {
+	animation: float 3s ease-in-out infinite;
+}

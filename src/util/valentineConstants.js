@@ -6,60 +6,60 @@ const GIFS = [
     },
     {
         id: 2,
-        description: "Piénsalo de nuevo.",
+        description: "¿Segura, Natalia?",
         img: "https://i.pinimg.com/originals/77/6b/21/776b215bed3deeef47fd3aa657685a18.gif"
     }
     ,
     {
         id: 3,
-        description: "Vamos, atrévete a decir que sí.",
+        description: "Piénsalo de nuevo, amor...",
         img: "https://www.gifmaniacos.es/wp-content/uploads/2019/05/gatitos-kawaii-gifmaniacos.es-19.gif"
     },
     {
         id: 4,
-        description: "No tengas miedo, será genial.",
+        description: "¡Dime que sí! 🥺",
         img: "https://i.pinimg.com/originals/e1/c3/88/e1c388133e0f998e25bb17c837b74a14.gif"
     },
     {
         id: 5,
-        description: "Confía en mí, será divertido.",
+        description: "No seas así con tu amor...",
         img: "https://media.tenor.com/Bn88VELdNI8AAAAi/peach-goma.gif"
     },
     {
         id: 6,
-        description: "No tengas dudas, te hará sonreír.",
+        description: "Te haré muy feliz, lo juro.",
         img: "https://i.pinimg.com/originals/c6/b3/0d/c6b30d1a2dc178aeb92de63295d4ae64.gif"
     },
     {
         id: 7,
-        description: "Te prometo que será inolvidable.",
+        description: "Será un día inolvidable ✨",
         img: "https://media.tenor.com/N2oqtqaB_G0AAAAi/peach-goma.gif"
     },
     {
         id: 8,
-        description: "No dejes que el miedo te detenga.",
+        description: "Un 'No' rompe mi corazoncito 💔",
         img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
     },
     {
         id: 9,
-        description: "Confía en el destino, nos está dando una señal.",
+        description: "¡Mira estos ojitos! 🥺",
         img: "https://media.tenor.com/cbEccaK9QxMAAAAi/peach-goma.gif"
     },
     {
         id: 10,
-        description: "Confía en mí.",
+        description: "Ándale, di que sí por fis.",
         img: "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif"
     },
     {
         id: 11,
-        description: "No te arrepentirás.",
+        description: "¡Te amo mucho Natalia!",
         img: "https://media.tenor.com/I7KdFaMzUq4AAAAi/peach-goma.gif"
     }];
 
 
 const ACCEPTED_GIF = {
     id: 1,
-    description: "¡Sí!",
+    description: "¡SÍ!",
     img: "https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif"
 }
 
